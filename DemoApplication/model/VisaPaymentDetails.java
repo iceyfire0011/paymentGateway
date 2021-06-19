@@ -1,4 +1,4 @@
-package DemoApplication.model;
+package model;
 
 public class VisaPaymentDetails implements IPaymentDetails {
     String fromCardNo;

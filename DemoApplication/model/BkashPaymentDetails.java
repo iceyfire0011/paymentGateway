@@ -1,4 +1,4 @@
-package DemoApplication.model;
+package model;
 
 public class BkashPaymentDetails implements IPaymentDetails {
     String fromMobileNo;

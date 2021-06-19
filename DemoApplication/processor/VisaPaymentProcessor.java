@@ -1,4 +1,4 @@
-package DemoApplication.processor;
+package processor;
 
 public class VisaPaymentProcessor implements IPaymentProcessor {
     @Override

@@ -1,4 +1,4 @@
-package DemoApplication.processor;
+package processor;
 
 public class AmexPaymentProcessor implements IPaymentProcessor {
     @Override

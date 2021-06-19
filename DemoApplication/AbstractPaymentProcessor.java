@@ -1,8 +1,8 @@
-package DemoApplication;
 
-import DemoApplication.model.IPaymentDetails;
-import DemoApplication.paymentGateway.PaymentGateway;
-import DemoApplication.processor.IPaymentProcessor;
+import model.IPaymentDetails;
+import paymentGateway.PaymentGateway;
+import processor.IPaymentProcessor;
+import enums.EPaymentMethod;
 
 public abstract class AbstractPaymentProcessor{
     IPaymentDetails iPaymentDetails;
@@ -16,5 +16,5 @@ public abstract class AbstractPaymentProcessor{
         paymentGateway.withPaymentMethod(ePaymentMethod).withPaymentDetails(iPaymentDetails).process();
     }
 
-    abstract void run();
+     abstract void run();
 }

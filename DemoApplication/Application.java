@@ -1,15 +1,14 @@
-package DemoApplication;
 
-import DemoApplication.model.BkashPaymentDetails;
-import DemoApplication.model.IPaymentDetails;
-import DemoApplication.model.VisaPaymentDetails;
+import model.BkashPaymentDetails;
+import model.IPaymentDetails;
+import model.VisaPaymentDetails;
 
 import java.util.Scanner;
 
 public class Application extends AbstractPaymentProcessor {
 
     @Override
-    void run() {
+     void run() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please select payment method:");
         System.out.println("1 = Bkash");

@@ -1,4 +1,4 @@
-package DemoApplication.processor;
+package processor;
 
 public interface IPaymentProcessor {
     void process();

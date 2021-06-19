@@ -1,9 +1,9 @@
-package DemoApplication.paymentGateway;
+package paymentGateway;
 
-import DemoApplication.EPaymentMethod;
-import DemoApplication.model.IPaymentDetails;
-import DemoApplication.processor.IPaymentProcessor;
-import DemoApplication.processor.BkashPaymentProcessor;
+import enums.EPaymentMethod;
+import model.IPaymentDetails;
+import processor.IPaymentProcessor;
+import processor.BkashPaymentProcessor;
 
 public class BkashPaymentGateway implements IPaymentGateway{
     @Override

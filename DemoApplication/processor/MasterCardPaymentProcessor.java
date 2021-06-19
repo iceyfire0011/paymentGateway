@@ -1,6 +1,6 @@
-package DemoApplication.processor;
+package processor;
 
-import DemoApplication.model.IPaymentDetails;
+import model.IPaymentDetails;
 
 public class MasterCardPaymentProcessor implements IPaymentProcessor {
     private final IPaymentDetails paymentDetails;

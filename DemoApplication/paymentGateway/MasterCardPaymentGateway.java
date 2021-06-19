@@ -1,9 +1,9 @@
-package DemoApplication.paymentGateway;
+package paymentGateway;
 
-import DemoApplication.EPaymentMethod;
-import DemoApplication.model.IPaymentDetails;
-import DemoApplication.processor.IPaymentProcessor;
-import DemoApplication.processor.MasterCardPaymentProcessor;
+import enums.EPaymentMethod;
+import model.IPaymentDetails;
+import processor.IPaymentProcessor;
+import processor.MasterCardPaymentProcessor;
 
 public class MasterCardPaymentGateway implements IPaymentGateway{
     @Override

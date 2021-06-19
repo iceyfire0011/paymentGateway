@@ -1,9 +1,9 @@
-package DemoApplication.paymentGateway;
+package paymentGateway;
 
-import DemoApplication.EPaymentMethod;
-import DemoApplication.model.IPaymentDetails;
-import DemoApplication.processor.IPaymentProcessor;
-import DemoApplication.processor.AmexPaymentProcessor;
+import enums.EPaymentMethod;
+import model.IPaymentDetails;
+import processor.IPaymentProcessor;
+import processor.AmexPaymentProcessor;
 
 public class AmexPaymentGateway implements IPaymentGateway{
     @Override

@@ -1,4 +1,4 @@
-package DemoApplication;
+package enums;
 
 import java.util.stream.Stream;
 
